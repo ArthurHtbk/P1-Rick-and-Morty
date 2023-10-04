@@ -5,6 +5,7 @@ const languageContent = {
       title: "Rick et Morty",
       desc: "Bienvenue dans l'univers de Rick et Morty",
     },
+    charactersTitle: "Personnages principaux",
     characters: {
       rickSanchez: [
         "Rick Sanchez est l'un des personnages les plus mémorables et intrigants de l'univers de la télévision animée, et il est le protagoniste de la série à succès \"Rick and Morty\". Créé par Dan Harmon et Justin Roiland, Rick est un scientifique génial, mais aussi profondément tourmenté, dont les aventures interdimensionnelles ont captivé le public depuis la première diffusion de la série en 2013.",
@@ -113,6 +114,7 @@ const languageContent = {
       desc: "Welcome to the Rick and Mortiverse!",
     },
     characters: {
+      title: "Main characters",
       rickSanchez: [
         "Rick Sanchez is one of the most memorable and intriguing characters in the world of animated television, and he is the protagonist of the hit series 'Rick and Morty.' Created by Dan Harmon and Justin Roiland, Rick is a brilliant but deeply troubled scientist whose interdimensional adventures have captivated the audience since the series' premiere in 2013.",
 
