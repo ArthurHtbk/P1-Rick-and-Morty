@@ -1,6 +1,13 @@
 const btn = document.querySelector(".toggle-btn");
-// My Github location.replace("https://github.com/Sepehr-Aghdasi82");
 
 btn.addEventListener("click", () => {
   btn.classList.toggle("active");
+});
+
+const hamburger = document.querySelector(".hamburger");
+const navLinks = document.querySelector(".nav-links");
+const links = document.querySelectorAll(".nav-links li");
+
+hamburger.addEventListener("click", () => {
+  navLinks.classList.toggle("open");
 });
