@@ -113,15 +113,105 @@ const languageContent = {
       desc: "Welcome to the Rick and Mortiverse!",
     },
     characters: {
-      rickSanchez: [],
-      mortySmith: [],
-      summerSmith: [],
-      bethSmith: [],
-      jerrySmith: [],
+      rickSanchez: [
+        "Rick Sanchez is one of the most memorable and intriguing characters in the world of animated television, and he is the protagonist of the hit series 'Rick and Morty.' Created by Dan Harmon and Justin Roiland, Rick is a brilliant but deeply troubled scientist whose interdimensional adventures have captivated the audience since the series' premiere in 2013.",
+
+        "Rick is an elderly man with tousled blue hair, usually wearing a white lab coat, and he is almost always seen with a bottle of alcohol in hand. His casual appearance sharply contrasts with his brilliant intellect and quirky personality. He is the father of Beth Smith, the grandfather of Morty Smith, and the stepfather of Jerry Smith, and his tumultuous relationship with his family is a central element of the series' plot.",
+
+        "Rick's story begins with his unexpected return to his daughter Beth's life after a long absence. He moves in with her and quickly takes his grandson Morty on a series of interdimensional adventures using his most famous invention, the 'Portal Gun.' This device allows him to travel between different realities and dimensions of the universe at will, creating opportunities for scientific escapades and wild explorations.",
+
+        "However, behind this eccentric façade lies a troubled past. It is gradually revealed that Rick left his family years ago to pursue his research and interdimensional travels. This decision left deep scars on Beth, who has always sought her father's approval. It has also had an impact on Morty, who is often exposed to unspeakable dangers and horrors during his adventures with Rick.",
+        "One of Rick's most striking characteristics is his disdain for authority and social conventions. He openly mocks governments, laws, and moral standards, and he stops at nothing to satisfy his scientific curiosity. This often puts him in conflict with powerful entities, including the Interdimensional Council, an organization that monitors interdimensional travel.",
+
+        "Throughout the series, Rick Sanchez emerges as a complex character, both troubled and profoundly intelligent. Despite his self-destructive tendencies and irreverence, he occasionally shows signs of affection toward Morty and seems to feel guilt for abandoning his daughter Beth and mother.",
+
+        "Rick's story is also marked by moments of vulnerability and deep reflection. He questions the existence of God, the nature of reality, and fundamental philosophical dilemmas, creating captivating existential dialogues in the series.",
+
+        "Ultimately, Rick Sanchez's story is a complex exploration of human nature, family, science, madness, and existentialism. His character continues to evolve throughout the seasons of 'Rick and Morty,' bringing its share of surprises and twists. Rick Sanchez will undoubtedly remain an unforgettable and fascinating character in contemporary animated television, proving that even amid infinite universes, personal struggles, and existential questions are universal themes.",
+      ],
+      mortySmith: [
+        "Morty Smith is the grandson of Rick Sanchez, the brilliant and eccentric scientist of the series, and he occupies a unique place in the chaotic universe of the show. With his distinctive characteristics, Morty has become an iconic character in popular culture since the series' debut in 2013.",
+
+        "Morty outwardly appears to be a typical teenager, with brown hair, glasses, and ordinary clothing. His overall appearance sharply contrasts with the chaotic personality of his grandfather, Rick. He is often seen wearing an expression of anxiety and uncertainty, which is understandable given the dangerous and unpredictable interdimensional adventures he is regularly exposed to.",
+        "Morty's story begins when Rick returns to his family's life after a long absence. Morty, who was previously an ordinary teenager, finds himself drawn into his grandfather's interdimensional travels and mad scientific experiments. Rick often leads him into extremely perilous situations, which sharply contrast with Rick's carefree and irresponsible nature.",
+
+        "Despite his fearful nature and lack of self-confidence, Morty develops skills over time. He becomes more resilient and adaptable, learning to navigate the constant challenges he faces. His relationship with Rick is complex, alternating between moments of frustration and anger, as well as affection and gratitude. Morty experiences both fear and admiration for his grandfather, and this dynamic is at the heart of the series' plot.",
+
+        "One of Morty's most striking characteristics is his emotional vulnerability. He is often torn between his family responsibilities and his interdimensional adventures with Rick. The pressures of his daily life, school, and family add to the constant stress of his travels with Rick, creating a cocktail of complex emotions.",
+
+        "Throughout the seasons, Morty evolves as a character. He develops some self-confidence, although his anxiety remains a central aspect of his personality. He also learns to question Rick's actions and defend his own moral values, which creates conflicts between the two characters.",
+
+        "In the end, Morty Smith embodies the tormented and vulnerable protagonist of 'Rick and Morty.' His relationship with Rick, his interdimensional adventures, and his personal struggles are at the core of the series' story. Despite his fears and doubts, Morty has become an iconic character in contemporary television, reflecting the realities of growth and self-exploration, even amidst infinite universes and scientific extravagances. His complex and evolving character continues to captivate fans worldwide, making him an unforgettable figure in 'Rick and Morty.'",
+      ],
+      summerSmith: [
+        "Summer Smith is the older sister of Morty Smith and the granddaughter of Rick Sanchez, placing her at the center of the action in the interdimensional adventures and scientific oddities that characterize the series. Since the beginning of the series in 2013, Summer has evolved into a complex and fascinating character who explores the challenges of adolescence and identity in an exceptional context.",
+
+        "Summer is a typical teenager, with red hair and a fashionable look. Unlike her brother Morty, who often grapples with anxiety, Summer displays a stronger self-confidence and a sense of adventure that develops over the course of the series. She is often drawn to Rick's interdimensional experiences, seeking to escape the boredom of everyday life.",
+
+        "Summer's story begins with Rick's return to her family's life after a long absence. She quickly finds herself drawn into her grandfather's chaotic adventures, which present unimaginable challenges for a teenager. Despite the dangers and eccentricities she is exposed to, Summer shows growing resilience and determination throughout the seasons.",
+
+        "One of Summer's most striking characteristics is her quest for identity and her search for her place in a world that constantly shifts beneath her feet. She must juggle family responsibilities, school, friendships, and interdimensional adventures, creating a complex mix of frustrations and discoveries.",
+
+        "Over the course of the series, Summer evolves as a character. She learns to navigate the quirks of Rick's universe and gain self-confidence. Her bond with Morty and her admiration for Rick also evolve, transitioning from simple family relationships to complex dynamics, infused with love, frustration, and understanding.",
+
+        "Summer becomes increasingly an independent character, capable of making informed decisions and standing up for her own convictions. She doesn't hesitate to question Rick's actions and defend what she believes in, sometimes creating tensions within the Smith family.",
+
+        "In the end, Summer Smith embodies the complexity of adolescence in an extraordinary context. Her journey of self-discovery, personal challenges, and interdimensional adventures make her a fascinating and dynamic character in 'Rick and Morty.' She represents an individual's capacity to grow, adapt, and face challenges, even amidst infinite universes and wild scientific experiments. Summer continues to evolve and captivate fans worldwide, confirming her status as an essential element of the series' universe.",
+      ],
+      bethSmith: [
+        "Beth Smith is the daughter of Rick Sanchez and the mother of Morty and Summer. Throughout the series, Beth occupies a central role as a member of the Smith family, and her complex character offers a unique perspective on the interdimensional adventures and existential challenges that characterize the series.",
+
+        "Beth is a middle-aged woman with blonde hair, usually wearing a doctor's coat due to her profession. She is a veterinarian, a profession that reflects her love for animals and her ability to handle difficult situations. However, her life is far from simple due to the presence of her father, Rick, whose unpredictable interdimensional experiments and self-destructive behavior regularly plunge her into chaos.",
+
+        "Beth's story is marked by the complex relationship she has with her father, Rick. Rick left his family years ago to pursue his interdimensional travels and scientific experiments. This absence has left deep scars on Beth, who has always sought her father's approval and love. Rick's return to her life has reignited these emotional conflicts, creating a tense dynamic within the Smith family.",
+
+        "Beth's life is also influenced by her relationship with her husband, Jerry Smith. Jerry is the epitome of the typical son-in-law, far removed from Rick's intelligence and eccentricity. Their marriage is often tumultuous, but Beth tries to balance the conflicting needs of her family.",
+
+        "As a mother, Beth faces complex challenges related to raising Morty and Summer, who are regularly exposed to unspeakable dangers and horrors during their adventures with Rick. She must juggle her family responsibilities and her professional career, adding a dimension of stress to her already tumultuous life.",
+
+        "Over the course of the series, Beth evolves as a character. She explores her own identity, her relationship with her father, and her life choices. She grapples with moral and existential dilemmas that question the foundations of reality and morality. These complex questions add unexpected depth to Beth's character.",
+
+        "Beth Smith embodies the human struggle to find meaning in an apparently absurd and chaotic universe. Her quest to understand her place in the world and her tumultuous family relationships serve as a powerful throughline in 'Rick and Morty.' Beth represents the complexity of the human condition, with its aspirations, inner conflicts, and search for meaning.",
+
+        "Ultimately, Beth Smith is an essential character in 'Rick and Morty.' Her personal journey, quest for identity, and struggle to find a balance between her family responsibilities and her own individuality make her profoundly human. She continues to evolve over the seasons of the series, bringing an emotional and philosophical dimension that enhances the overall impact of the show. Beth Smith remains a striking example of the richness of characters and themes explored in 'Rick and Morty.'",
+      ],
+      jerrySmith: [
+        "Jerry Smith is the father of Summer and Morty, husband of Beth Smith, and son-in-law of Rick Sanchez. Jerry plays a central role in the interdimensional adventures and existential dilemmas that characterize the series. Despite his apparent simplicity, Jerry is a complex character who embodies the mundane in the face of the extraordinary.",
+
+        "Jerry is a middle-aged man with an ordinary appearance, working in an advertising company. His appearance, personality, and ambitions are entirely typical, which sharply contrasts with the eccentric members of his family, especially Rick, the grandfather of his children. Jerry represents normalcy in a universe where everything is extraordinary.",
+
+        "Jerry's story is marked by his tumultuous relationship with Rick, a brilliant and erratic scientist who lives with his family. Jerry often clashes with Rick due to their fundamental differences: Rick rejects society, conventional science, and social conventions, while Jerry aspires to stability, security, and normality. Their regular disagreements create tensions within the Smith family.",
+
+        "As a family man, Jerry faces constant challenges. He must balance parental responsibilities with Rick's interdimensional adventures, creating a complex mix of frustration and admiration for his father-in-law. Despite his attempts to be a good father, Jerry is often clumsy and inept, adding comedic elements to the series.",
+        "His relationship with his wife, Beth Smith, is also a central element of his character. Beth is Rick's daughter and the mother of their children, Morty and Summer. Jerry and Beth's marriage is often tumultuous due to Rick's influences on their lives. However, despite their disagreements and arguments, Jerry and Beth share a deep bond and have a complex love story.",
+        "Jerry is a character who evolves over the course of the series. He often finds himself in situations of failure, but he learns to navigate Rick's chaotic universe and find his place within the family. Despite his flaws, Jerry has moments of insight and compassion, showing his ability to learn and grow.",
+        "In the end, Jerry Smith reflects the struggle for normalcy in an extraordinary world. His ordinary character and modest aspirations contrast with the extravagant elements of the 'Rick and Morty' universe. Jerry is a character who embodies resilience in the face of adversity, the pursuit of stability amidst chaos, and the quest for acceptance within a dysfunctional family.",
+        "Jerry Smith continues to be an essential element of 'Rick and Morty.' His ability to represent normalcy in an extraordinary world adds a dimension of humor, reflection, and realism to the series. Jerry serves as a reminder that even in the strangest worlds and wildest adventures, there is room for simplicity and the search for meaning.",
+      ],
     },
     danHarmon: {
       title: "The brain behind Rick and Morty",
-      bio: [],
+      bio: [
+        "Dan Harmon, born on January 3, 1973, in Milwaukee, Wisconsin, is a renowned creator, writer, and producer in the entertainment industry. His exceptional journey and contribution to popular culture have made him an indispensable figure in contemporary television. Among his numerous accomplishments, 'Rick and Morty' stands out as one of his most iconic works.",
+
+        "Harmon grew up in Wisconsin, where he attended Brown Deer High School. From a young age, he showed an interest in comedy and storytelling. After graduating, he pursued studies at Marquette University in Milwaukee, specializing in English and film. It was there that he honed his writing skills and began diving into the world of content creation.",
+
+        "His move to Los Angeles marked the beginning of his career in the entertainment industry. His early forays in the industry were modest, but Harmon quickly made a name for himself with his talent for comedic writing and innovation. He launched 'Channel 101,' an online platform that allowed independent creators to showcase their TV projects. This initiative contributed to his growing reputation and fortuitous encounters with other emerging talents.",
+
+        "One of his most notable collaborations was with Justin Roiland, another talented creator. Together, they brought to life an animated series that would become one of the most acclaimed in recent years: 'Rick and Morty.' The series debuted in 2013 and immediately captivated viewers with its clever humor, scientific satire, and interdimensional adventures.",
+
+        "The core concept of 'Rick and Morty' originated from Justin Roiland's imagination, who had created a short film titled 'The Real Animated Adventures of Doc and Mharti.' Harmon and Roiland collaborated to develop the concept into a full-fledged animated series. The show follows the tumultuous adventures of Rick Sanchez, a brilliant and eccentric scientist, and his grandson Morty. Their complex relationship and journeys through dimensions quickly won over a loyal audience.",
+
+        "Dan Harmon is known for his ability to blend absurd humor, philosophical insights, and social commentary in his works. 'Rick and Morty' is no exception, tackling themes such as existence, morality, identity, and the absurdity of the universe, all wrapped in wild adventures and memorable characters. Dan Harmon's creative influence is evident in the series' complex narrative structure, which uses concepts like parallel realities and alternate universes to explore profound ideas.",
+
+        "However, the path to 'Rick and Morty's' success was not without hurdles. Dan Harmon is well-known for his perfectionism, propensity for procrastination, and creative conflicts. In 2012, he was briefly removed from the series, sparking controversy among fans. Fortunately, he was reinstated for the creation of the third season, and the series continued to thrive under his direction.",
+
+        "Beyond 'Rick and Morty,' Dan Harmon is also recognized for creating the television series 'Community,' a zany comedy set in a community college. The series developed a devoted fan base thanks to its subversive humor and memorable characters. Harmon used 'Community' to explore complex social and psychological themes.",
+
+        "In addition to his contributions to television, Dan Harmon has also been involved in podcasting, writing, and stand-up projects. His distinctive writing style and penchant for narrative analysis have made him an influential figure in the entertainment industry.",
+
+        "In conclusion, Dan Harmon is a talented creator whose impact on television and storytelling is undeniable. His ability to blend absurd humor with profound insights has given rise to series such as 'Rick and Morty' and 'Community,' which continue to be celebrated by fans and critics alike. His journey, marked by perseverance and creativity, serves as an inspiring example for aspiring creators and writers. Dan Harmon remains an influential voice in the world of entertainment, and his legacy will continue to shine through the works he has created and inspired.",
+      ],
     },
   },
 };
