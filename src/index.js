@@ -1,3 +1,16 @@
+const btn = document.querySelector(".toggle-btn");
+
+btn.addEventListener("click", () => {
+  btn.classList.toggle("active");
+});
+
+const hamburger = document.querySelector(".hamburger");
+const navLinks = document.querySelector(".nav-links");
+const links = document.querySelectorAll(".nav-links li");
+
+hamburger.addEventListener("click", () => {
+  navLinks.classList.toggle("open");
+});
 import languageContent from "./languageContent.js";
 
 const sectionChars = document.querySelectorAll(".section-chars");
@@ -17,5 +30,3 @@ const displayCharactersParagraphs = (data, HTMLcollection) => {
 };
 
 displayCharactersParagraphs(languageContent.fr, sectionChars);
-
-// console.log(languageContent.fr.characters.rickSanchez);

@@ -1,31 +1,48 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./src/reset.css">
     <link rel="stylesheet" href="./src/styles.css">
     <title>Rick et Morty</title>
-</head>
-<body>
-    <nav>
-        <ul>
-            <li><a class="link" href="#accueil">Accueil</a></li>
-            <li><a class="link" href="#personnages">Personnages</a></li>
-            <li><a class="link" href="#dan-harmon">Dan Harmon</a></li>
+  </head>
+  <body>
+    <nav class="navbar">
+      <img
+        class="logo"
+        src="./assets/Rick_and_Morty_logo.svg"
+        alt="original logo of Rick and Morty">
+
+      <div>
+        <ul class="nav-links">
+          <li><a class="link" href="#accueil">Accueil</a></li>
+          <li><a class="link" href="#personnages">Personnages</a></li>
+          <li><a class="link" href="#dan-harmon">Dan Harmon</a></li>
         </ul>
-        <button id="lang-fr">Français</button>
-        <button id="lang-en">Anglais</button>
+        <div class="btn-container">
+          <p>EN</p>
+          <div class="toggle-btn">
+            <div class="inner-circle"></div>
+          </div>
+          <p>FR</p>
+        </div>
+      </div>
+      <div class="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
     </nav>
 
     <header id="accueil">
-        <h1>Rick et Morty</h1>
-        <p>Bienvenue dans l'univers de Rick et Morty.</p>
+      <h1>Rick et Morty</h1>
+      <p>Bienvenue dans l'univers de Rick et Morty.</p>
     </header>
 
     <main>
-        <div id="personnages">
-            <h2>Personnages principaux</h2>
+      <div id="personnages">
+        <h2>Personnages principaux</h2>
 
             <section id="rickSanchez" class="section-chars">
                 <h3>Rick Sanchez</h3>
@@ -53,18 +70,30 @@
             </section>
         </div>
 
-        <div id="dan-harmon">
-            <h2>Le cerveau derrière la série</h2>
-            <section>
-                <h3>Dan Harmon</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio minus culpa dolore, perspiciatis necessitatibus eligendi consequatur voluptatem aspernatur quae. Aliquid mollitia ad harum nobis dolore vero odio similique facilis qui fuga numquam praesentium rerum, rem maiores recusandae blanditiis ipsum voluptas at. Perferendis architecto laboriosam harum ab? Corporis excepturi, tenetur molestiae quod architecto expedita voluptas veniam voluptatum facere eveniet ducimus libero dolores neque magnam explicabo. Ea, architecto saepe beatae quibusdam soluta dignissimos expedita odio velit adipisci fuga dolorum recusandae eveniet ex impedit non animi eos, debitis officia molestias? Maxime nesciunt dolorum doloribus officiis nam, assumenda, in quas, atque cum aliquid sequi?
-                </p>
-            </section>
-        </div>
+      <div id="dan-harmon">
+        <h2>Le cerveau derrière la série</h2>
+        <section>
+          <h3>Dan Harmon</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio minus
+            culpa dolore, perspiciatis necessitatibus eligendi consequatur
+            voluptatem aspernatur quae. Aliquid mollitia ad harum nobis dolore
+            vero odio similique facilis qui fuga numquam praesentium rerum, rem
+            maiores recusandae blanditiis ipsum voluptas at. Perferendis
+            architecto laboriosam harum ab? Corporis excepturi, tenetur
+            molestiae quod architecto expedita voluptas veniam voluptatum facere
+            eveniet ducimus libero dolores neque magnam explicabo. Ea,
+            architecto saepe beatae quibusdam soluta dignissimos expedita odio
+            velit adipisci fuga dolorum recusandae eveniet ex impedit non animi
+            eos, debitis officia molestias? Maxime nesciunt dolorum doloribus
+            officiis nam, assumenda, in quas, atque cum aliquid sequi?
+          </p>
+        </section>
+      </div>
     </main>
 
     <footer>
-        <p>&copy; 2023 Rick et Morty. Tous droits réservés.</p>
+      <p>&copy; 2023 Rick et Morty. Tous droits réservés.</p>
     </footer>
 
     <script src="./src/index.js" type="module"></script>
