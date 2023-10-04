@@ -215,3 +215,5 @@ const languageContent = {
     },
   },
 };
+
+export default languageContent;
