@@ -120,3 +120,32 @@ dotsContainer.addEventListener("click", (e) => {
 
   hideShowArrows(slides, prevBtn, nextBtn, targetIndex);
 });
+
+// display characters text
+
+console.log(charsParagraphs);
+
+charsParagraphs.forEach((el) => {
+  const button = el.lastChild;
+
+  button.addEventListener("click", () => {
+    const paragraphs = el.querySelectorAll("p");
+
+    console.log(paragraphs);
+
+    if (button.classList.contains("display")) {
+      button.classList.remove("display");
+      button.innerText = "+";
+      for (const p of paragraphs) {
+        p.classList.remove("show");
+      }
+    } else {
+      button.classList.add("display");
+      button.innerText = "-";
+
+      for (const p of paragraphs) {
+        p.classList.add("show");
+      }
+    }
+  });
+});
