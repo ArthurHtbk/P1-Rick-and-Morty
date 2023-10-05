@@ -120,14 +120,21 @@ dotsContainer.addEventListener("click", (e) => {
 
 // display characters text
 
-sectionChars.forEach((section) => {
-  const button = section.lastChild;
+console.log(charsParagraphs);
+
+charsParagraphs.forEach((el) => {
+  const button = el.lastChild;
+
+  console.log(el);
 
   button.addEventListener("click", () => {
-    const paragraphs = section.querySelectorAll("p");
+    const paragraphs = el.querySelectorAll("p");
+
+    console.log(paragraphs);
 
     if (button.classList.contains("active")) {
       button.classList.remove("active");
+      button.innerText = "+";
       for (const p of paragraphs) {
         p.classList.remove("show");
       }
