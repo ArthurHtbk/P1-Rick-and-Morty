@@ -1,6 +1,6 @@
 // Imports
 import languageContent from "./languageContent.js";
-import { toggleHandler, hamburgerHandler, displayParagraphs } from "./utils.js";
+import { toggleHandler, hamburgerHandler, displayParagraphs, textHandler } from "./utils.js";
 import languageHandler from "./languageHandler.js";
 
 // Elements
@@ -122,30 +122,5 @@ dotsContainer.addEventListener("click", (e) => {
 });
 
 // display characters text
-
-console.log(charsParagraphs);
-
-charsParagraphs.forEach((el) => {
-  const button = el.lastChild;
-
-  button.addEventListener("click", () => {
-    const paragraphs = el.querySelectorAll("p");
-
-    console.log(paragraphs);
-
-    if (button.classList.contains("display")) {
-      button.classList.remove("display");
-      button.innerText = "+";
-      for (const p of paragraphs) {
-        p.classList.remove("show");
-      }
-    } else {
-      button.classList.add("display");
-      button.innerText = "-";
-
-      for (const p of paragraphs) {
-        p.classList.add("show");
-      }
-    }
-  });
-});
+textHandler(charsParagraphs)
+textHandler(harmonParagraphs)

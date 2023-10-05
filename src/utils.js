@@ -48,4 +48,28 @@ const displayParagraphs = (object, htmlCollection) => {
   });
 };
 
-export { toggleHandler, hamburgerHandler, displayParagraphs };
+const textHandler = (element) => {
+  element.forEach((el) => {
+    el.addEventListener("click", (event) => {
+      const button = event.target;
+      if (button.tagName === "BUTTON") {
+        const paragraphs = el.querySelectorAll("p");
+        if (button.classList.contains("display")) {
+          button.classList.remove("display");
+          button.innerText = "+";
+          for (const p of paragraphs) {
+            p.classList.remove("show");
+          }
+        } else {
+          button.classList.add("display");
+          button.innerText = "-";
+          for (const p of paragraphs) {
+            p.classList.add("show");
+          }
+        }
+      }
+    });
+  });
+}
+
+export { toggleHandler, hamburgerHandler, displayParagraphs, textHandler };
