@@ -71,6 +71,10 @@ body {
   transition: all 1s ease-out;
 }
 
+.nav-links > li {
+  width: 125px;
+}
+
 .nav-links.open {
   clip-path: circle(1200px at 90% -10%);
   -webkit-clip-path: circle(1200px at 90% -10%);

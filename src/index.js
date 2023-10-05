@@ -1,6 +1,7 @@
 // Imports
 import languageContent from "./languageContent.js";
 import { toggleHandler, hamburgerHandler, displayParagraphs } from "./utils.js";
+import languageHandler from "./languageHandler.js";
 
 // Elements
 const toggleButton = document.querySelector(".toggle-button");
@@ -20,9 +21,11 @@ displayParagraphs(languageContent.fr.author.bio, harmonParagraphs);
 toggleButton.addEventListener("click", () => {
   toggleHandler(toggleButton);
   if (toggleButton.classList[1]) {
+    languageHandler(languageContent.en);
     displayParagraphs(languageContent.en.characters, charsParagraphs);
     displayParagraphs(languageContent.en.author.bio, harmonParagraphs);
   } else {
+    languageHandler(languageContent.fr);
     displayParagraphs(languageContent.fr.characters, charsParagraphs);
     displayParagraphs(languageContent.fr.author.bio, harmonParagraphs);
   }

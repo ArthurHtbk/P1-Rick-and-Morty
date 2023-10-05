@@ -1,10 +1,7 @@
 const languageContent = {
   fr: {
     navbar: ["Accueil", "Personnages", "Dan Harmon"],
-    hero: {
-      title: "Rick et Morty",
-      desc: "Bienvenue dans l'univers de Rick et Morty",
-    },
+    hero: "Bienvenue dans l'univers de Rick et Morty",
     charactersTitle: "Personnages principaux",
     characters: {
       rickSanchez: [
@@ -111,10 +108,7 @@ const languageContent = {
   },
   en: {
     navbar: ["Home", "Characters", "Dan Harmon"],
-    hero: {
-      title: "Rick and Morty",
-      desc: "Welcome to the Rick and Mortiverse!",
-    },
+    hero: "Welcome to the Rick and Mortiverse!",
     charactersTitle: "Main characters",
     characters: {
       rickSanchez: [
