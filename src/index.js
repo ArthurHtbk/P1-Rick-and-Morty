@@ -128,8 +128,6 @@ console.log(charsParagraphs);
 charsParagraphs.forEach((el) => {
   const button = el.lastChild;
 
-  console.log(el);
-
   button.addEventListener("click", () => {
     const paragraphs = el.querySelectorAll("p");
 
