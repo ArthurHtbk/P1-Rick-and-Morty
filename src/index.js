@@ -17,14 +17,15 @@ hamburger.addEventListener("click", () => {
 import languageContent from "./languageContent.js";
 
 const sectionChars = document.querySelectorAll(".section-chars");
+const harmonSection = document.querySelectorAll(".harmon-section");
 
-const displayCharactersParagraphs = (data, HTMLcollection) => {
-  for (const character in data.characters) {
-    data.characters[character].forEach((paragraph) => {
+const displayParagraphs = (data, HTMLcollection) => {
+  for (const element in data) {
+    data[element].forEach((paragraph) => {
       const p = document.createElement("p");
       p.textContent = paragraph;
       HTMLcollection.forEach((node) => {
-        if (node.id === character) {
+        if (node.id === element) {
           node.appendChild(p);
         }
       });
@@ -32,4 +33,5 @@ const displayCharactersParagraphs = (data, HTMLcollection) => {
   }
 };
 
-displayCharactersParagraphs(languageContent.fr, sectionChars);
+displayParagraphs(languageContent.fr.characters, sectionChars);
+displayParagraphs(languageContent.fr.author.bio, harmonSection);
