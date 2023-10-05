@@ -1,10 +1,16 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./src/reset.css">
-    <link rel="stylesheet" href="./src/styles.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/reset.css" />
+    <link rel="stylesheet" href="./src/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Creepster&display=swap"
+      rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css" />
     <title>Rick et Morty</title>
   </head>
   <body>
@@ -12,7 +18,7 @@
       <img
         class="logo"
         src="./assets/Rick_and_Morty_logo.svg"
-        alt="original logo of Rick and Morty">
+        alt="original logo of Rick and Morty" />
 
       <ul class="nav-links">
         <li>
@@ -33,43 +39,71 @@
         <div class="line"></div>
         <div class="line"></div>
         <div class="line"></div>
-      </div>
+      </section>
     </nav>
 
-    <header id="accueil">
-      <h1>Rick et Morty</h1>
-      <p>Bienvenue dans l'univers de Rick et Morty.</p>
+    <header id="header">
+      <h1 class="hero-title">Bienvenue dans l'univers de Rick et Morty.</h1>
+      <div class="carousel">
+        <button class="carousel-btn btn-left">
+          <i class="fi fi-br-angle-left"></i>
+        </button>
+        <div class="carousel-track-container">
+          <ul class="carousel-track">
+            <li class="carousel-slide">
+              <img
+                class="carousel-img"
+                src="./assets/rick_with_gun.jpeg"
+                alt="rick handling a gun" />
+            </li>
+            <li class="carousel-slide">
+              <img
+                class="carousel-img"
+                src="./assets/rick_with_gun.jpeg"
+                alt="rick handling a gun" />
+            </li>
+            <li class="carousel-slide">
+              <img
+                class="carousel-img"
+                src="./assets/rick_with_gun.jpeg"
+                alt="rick handling a gun" />
+            </li>
+          </ul>
+        </div>
+        <button class="carousel-btn btn-right">
+          <i class="fi fi-br-angle-right"></i>
+        </button>
+        <div class="carousel-dots">
+          <button class="dot"></button><button class="dot"></button
+          ><button class="dot"></button>
+        </div>
+      </div>
     </header>
 
     <main>
-      <div id="personnages">
+      <div id="characters">
         <h2>Personnages principaux</h2>
 
-            <section id="rickSanchez" class="section-chars">
-                <h3>Rick Sanchez</h3>
-                
-            </section>
-    
-            <section id="mortySmith" class="section-chars">
-                <h3>Morty Smith</h3>
-                
-            </section>
-    
-            <section id="summerSmith" class="section-chars">
-                <h3>Summer Smith</h3>
-                
-            </section>
-    
-            <section id="bethSmith" class="section-chars">
-                <h3>Beth Smith</h3>
-                
-            </section>
-    
-            <section id="jerrySmith" class="section-chars">
-                <h3>Jerry Smith</h3>
-                
-            </section>
-        </div>
+        <section id="rickSanchez" class="section-chars">
+          <h3>Rick Sanchez</h3>
+        </section>
+
+        <section id="mortySmith" class="section-chars">
+          <h3>Morty Smith</h3>
+        </section>
+
+        <section id="summerSmith" class="section-chars">
+          <h3>Summer Smith</h3>
+        </section>
+
+        <section id="bethSmith" class="section-chars">
+          <h3>Beth Smith</h3>
+        </section>
+
+        <section id="jerrySmith" class="section-chars">
+          <h3>Jerry Smith</h3>
+        </section>
+      </div>
 
       <div id="dan-harmon">
         <h2>Le cerveau derrière la série</h2>
@@ -98,5 +132,5 @@
     </footer>
 
     <script src="./src/index.js" type="module"></script>
-</body>
+  </body>
 </html>
