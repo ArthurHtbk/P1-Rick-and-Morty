@@ -8,21 +8,21 @@ const hamburger = document.querySelector(".hamburger");
 const navLinks = document.querySelector(".nav-links");
 const sectionChars = document.querySelectorAll(".section-chars");
 const harmonSection = document.querySelectorAll(".harmon-section");
+const characters = document.querySelector("#characters");
+const author = document.querySelector("#author");
 
 // Handle language switch
-displayParagraphs(languageContent.fr.characters, sectionChars);
-displayParagraphs(languageContent.fr.author.bio, harmonSection);
+displayParagraphs(languageContent.fr.characters, sectionChars, characters);
+displayParagraphs(languageContent.fr.author.bio, harmonSection, author);
 
 toggleButton.addEventListener("click", () => {
   toggleHandler(toggleButton);
   if (toggleButton.classList[1]) {
-    displayParagraphs(languageContent.en.characters, sectionChars);
-    displayParagraphs(languageContent.en.author.bio, harmonSection);
-    console.log(languageContent.en.characters, languageContent.en.author.bio);
+    displayParagraphs(languageContent.en.characters, sectionChars, characters);
+    displayParagraphs(languageContent.en.author.bio, harmonSection, author);
   } else {
-    displayParagraphs(languageContent.fr.characters, sectionChars);
-    displayParagraphs(languageContent.fr.author.bio, harmonSection);
-    console.log(languageContent.fr.characters, languageContent.fr.author.bio);
+    displayParagraphs(languageContent.fr.characters, sectionChars, characters);
+    displayParagraphs(languageContent.fr.author.bio, harmonSection, author);
   }
 });
 

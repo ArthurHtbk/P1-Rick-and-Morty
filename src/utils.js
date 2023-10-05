@@ -22,10 +22,19 @@ const createParagraphs = (tab, string, obj) => {
   });
 };
 
+const addButton = (section) => {
+  const button = document.createElement("button");
+  button.textContent = "+";
+  section.appendChild(button);
+};
+
 const displayParagraphs = (object, htmlCollection) => {
   for (const element in object) {
     createParagraphs(htmlCollection, element, object);
   }
+  htmlCollection.forEach((element) => {
+    addButton(element);
+  });
 };
 
 export { toggleHandler, hamburgerHandler, displayParagraphs };
