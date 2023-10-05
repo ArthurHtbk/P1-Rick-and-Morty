@@ -244,7 +244,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1.8rem;
+  gap: 3rem;
   padding: 3rem 1.5rem;
 }
 
@@ -254,14 +254,19 @@ body {
 }
 
 #characters h2 {
-  font-size: clamp(1.4rem, 3vw + 1rem, 3rem);
+  font-size: clamp(2.5rem, 6vw + 1rem, 4rem);
   font-family: var(--ff-title-secondary);
+  text-align: center;
+  line-height: 4rem;
+  border: 2px solid aliceblue;
+  border-radius: 10px;
+  padding: 1rem 1rem 2rem 1rem;
 }
 
 #characters h3 {
   background-image: var(--bg-multicolor);
   background-size: cover;
-  font-size: clamp(1.2rem, 3vw + 1rem, 3rem);
+  font-size: clamp(3rem, 6vw + 1rem, 5rem);
   font-family: var(--ff-title);
   text-align: center;
   color: transparent;
@@ -299,6 +304,18 @@ body {
   width: 300px;
   height: 300px;
   clip-path: circle(45%);
+}
+
+.section-chars button {
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+  font-size: 1.4rem;
+  color: black;
+  border: 2px solid black;
+  background: var(--bg-multicolor);
+  background-size: cover;
+  border-radius: 50%;
 }
 
 /* -------------------------------------------------------------------------- */
@@ -359,5 +376,32 @@ body {
 
   .btn-right {
     right: 1.5rem;
+  }
+
+  /* ----------------------------------  main --------------------------------- */
+
+  #characters {
+    padding-block: 5rem;
+    margin: 0 auto;
+  }
+
+  #characters,
+  #characters section {
+    gap: 5rem;
+    width: 80%;
+  }
+
+  #characters section {
+    gap: 2.5rem;
+  }
+
+  #characters h2 {
+    font-size: clamp(2.5rem, 6vw + 1rem, 4rem);
+    font-family: var(--ff-title-secondary);
+    text-align: center;
+    line-height: 4rem;
+    border: 2px solid aliceblue;
+    border-radius: 10px;
+    padding: 1rem 1rem 2rem 1rem;
   }
 }

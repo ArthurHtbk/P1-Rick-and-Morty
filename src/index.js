@@ -118,6 +118,24 @@ dotsContainer.addEventListener("click", (e) => {
 
 // display characters text
 
-const CharactersParagraphs = sectionChars.childrens;
+sectionChars.forEach((section) => {
+  const button = section.lastChild;
 
-console.log(sectionChars);
+  button.addEventListener("click", () => {
+    const paragraphs = section.querySelectorAll("p");
+
+    if (button.classList.contains("active")) {
+      button.classList.remove("active");
+      for (const p of paragraphs) {
+        p.classList.remove("show");
+      }
+    } else {
+      button.classList.add("active");
+      button.innerText = "-";
+
+      for (const p of paragraphs) {
+        p.classList.add("show");
+      }
+    }
+  });
+});
