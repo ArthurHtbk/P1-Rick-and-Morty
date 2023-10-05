@@ -86,8 +86,8 @@ body {
   color: var(--green);
 }
 
-/* toggle btn */
-.btn-container {
+/* toggle button */
+.button-container {
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -95,26 +95,26 @@ body {
   gap: 0.5rem;
   color: aliceblue;
 }
-.toggle-btn {
+.toggle-button {
   width: 40px;
   height: 20px;
-  background-color: gray;
+  background-color: var(--violet);
   border-radius: 30px;
   padding: 3px;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
 }
-.toggle-btn > .inner-circle {
+.toggle-button > .inner-circle {
   width: 14px;
   height: 14px;
   background-color: #fff;
   border-radius: 50%;
   transition: all 300ms ease-in-out;
 }
-.toggle-btn.active {
+.toggle-button.active {
   background-color: var(--green);
 }
-.toggle-btn.active > .inner-circle {
+.toggle-button.active > .inner-circle {
   margin-left: 20px;
 }
 
