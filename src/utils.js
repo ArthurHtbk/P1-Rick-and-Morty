@@ -8,7 +8,7 @@ const hamburgerHandler = (element, string) => {
 
 const injectParagraphs = (tab, htmlElement, string) => {
   tab.forEach((node) => {
-    if (node.id === string) {
+    if (node.parentElement.id === string) {
       node.appendChild(htmlElement);
     }
   });
@@ -28,7 +28,18 @@ const addButton = (section) => {
   section.appendChild(button);
 };
 
+const removeChildren = (element) => {
+  let child = element.lastElementChild;
+  while (child) {
+    element.removeChild(child);
+    child = element.lastElementChild;
+  }
+};
+
 const displayParagraphs = (object, htmlCollection) => {
+  htmlCollection.forEach((element) => {
+    removeChildren(element);
+  });
   for (const element in object) {
     createParagraphs(htmlCollection, element, object);
   }

@@ -6,23 +6,25 @@ import { toggleHandler, hamburgerHandler, displayParagraphs } from "./utils.js";
 const toggleButton = document.querySelector(".toggle-button");
 const hamburger = document.querySelector(".hamburger");
 const navLinks = document.querySelector(".nav-links");
-const sectionChars = document.querySelectorAll(".section-chars");
-const harmonSection = document.querySelectorAll(".harmon-section");
-const characters = document.querySelector("#characters");
-const author = document.querySelector("#author");
+const charsParagraphs = document.querySelectorAll(
+  ".section-chars > .paragraphs"
+);
+const harmonParagraphs = document.querySelectorAll(
+  ".harmon-section > .paragraphs"
+);
 
 // Handle language switch
-displayParagraphs(languageContent.fr.characters, sectionChars, characters);
-displayParagraphs(languageContent.fr.author.bio, harmonSection, author);
+displayParagraphs(languageContent.fr.characters, charsParagraphs);
+displayParagraphs(languageContent.fr.author.bio, harmonParagraphs);
 
 toggleButton.addEventListener("click", () => {
   toggleHandler(toggleButton);
   if (toggleButton.classList[1]) {
-    displayParagraphs(languageContent.en.characters, sectionChars, characters);
-    displayParagraphs(languageContent.en.author.bio, harmonSection, author);
+    displayParagraphs(languageContent.en.characters, charsParagraphs);
+    displayParagraphs(languageContent.en.author.bio, harmonParagraphs);
   } else {
-    displayParagraphs(languageContent.fr.characters, sectionChars, characters);
-    displayParagraphs(languageContent.fr.author.bio, harmonSection, author);
+    displayParagraphs(languageContent.fr.characters, charsParagraphs);
+    displayParagraphs(languageContent.fr.author.bio, harmonParagraphs);
   }
 });
 
