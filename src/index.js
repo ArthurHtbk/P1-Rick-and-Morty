@@ -118,3 +118,9 @@ dotsContainer.addEventListener("click", (e) => {
 
   hideShowArrows(slides, prevBtn, nextBtn, targetIndex);
 });
+
+// display characters text
+
+const CharactersParagraphs = sectionChars.childrens;
+
+console.log(sectionChars);
