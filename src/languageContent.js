@@ -115,8 +115,8 @@ const languageContent = {
       title: "Rick and Morty",
       desc: "Welcome to the Rick and Mortiverse!",
     },
+    charactersTitle: "Main characters",
     characters: {
-      title: "Main characters",
       rickSanchez: [
         "Rick Sanchez is one of the most memorable and intriguing characters in the world of animated television, and he is the protagonist of the hit series 'Rick and Morty.' Created by Dan Harmon and Justin Roiland, Rick is a brilliant but deeply troubled scientist whose interdimensional adventures have captivated the audience since the series' premiere in 2013.",
 
@@ -193,10 +193,10 @@ const languageContent = {
         "Jerry Smith continues to be an essential element of 'Rick and Morty.' His ability to represent normalcy in an extraordinary world adds a dimension of humor, reflection, and realism to the series. Jerry serves as a reminder that even in the strangest worlds and wildest adventures, there is room for simplicity and the search for meaning.",
       ],
     },
-    danHarmon: {
+    author: {
       title: "The brain behind Rick and Morty",
       bio: {
-        paragraphs: [
+        danHarmon: [
           "Dan Harmon, born on January 3, 1973, in Milwaukee, Wisconsin, is a renowned creator, writer, and producer in the entertainment industry. His exceptional journey and contribution to popular culture have made him an indispensable figure in contemporary television. Among his numerous accomplishments, 'Rick and Morty' stands out as one of his most iconic works.",
 
           "Harmon grew up in Wisconsin, where he attended Brown Deer High School. From a young age, he showed an interest in comedy and storytelling. After graduating, he pursued studies at Marquette University in Milwaukee, specializing in English and film. It was there that he honed his writing skills and began diving into the world of content creation.",
