@@ -135,14 +135,14 @@ charsParagraphs.forEach((el) => {
 
     console.log(paragraphs);
 
-    if (button.classList.contains("active")) {
-      button.classList.remove("active");
+    if (button.classList.contains("display")) {
+      button.classList.remove("display");
       button.innerText = "+";
       for (const p of paragraphs) {
         p.classList.remove("show");
       }
     } else {
-      button.classList.add("active");
+      button.classList.add("display");
       button.innerText = "-";
 
       for (const p of paragraphs) {
