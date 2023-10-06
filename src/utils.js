@@ -70,6 +70,19 @@ const textHandler = (element) => {
       }
     });
   });
-}
+};
 
-export { toggleHandler, hamburgerHandler, displayParagraphs, textHandler };
+const scrollToTop = () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
+};
+
+export {
+  toggleHandler,
+  hamburgerHandler,
+  displayParagraphs,
+  textHandler,
+  scrollToTop,
+};

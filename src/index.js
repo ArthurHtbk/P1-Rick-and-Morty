@@ -1,6 +1,12 @@
 // Imports
 import languageContent from "./languageContent.js";
-import { toggleHandler, hamburgerHandler, displayParagraphs, textHandler } from "./utils.js";
+import {
+  toggleHandler,
+  hamburgerHandler,
+  displayParagraphs,
+  textHandler,
+  scrollToTop,
+} from "./utils.js";
 import languageHandler from "./languageHandler.js";
 
 // Elements
@@ -122,5 +128,10 @@ dotsContainer.addEventListener("click", (e) => {
 });
 
 // display characters text
-textHandler(charsParagraphs)
-textHandler(harmonParagraphs)
+textHandler(charsParagraphs);
+textHandler(harmonParagraphs);
+
+// return to the top of the page
+const portal = document.querySelector(".portal");
+
+portal.addEventListener("click", scrollToTop);
