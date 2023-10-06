@@ -5,6 +5,7 @@ import {
   hamburgerHandler,
   displayParagraphs,
   textHandler,
+  scrollToTop,
 } from "./utils.js";
 import languageHandler from "./languageHandler.js";
 
@@ -136,3 +137,8 @@ dotsContainer.addEventListener("click", (e) => {
 // display characters text
 textHandler(charsParagraphs);
 textHandler(harmonParagraphs);
+
+// return to the top of the page
+const portal = document.querySelector(".portal");
+
+portal.addEventListener("click", scrollToTop);
