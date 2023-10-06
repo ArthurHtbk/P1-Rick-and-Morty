@@ -20,8 +20,8 @@ Welcome to our Rick & Morty homage project! This project serves as a demonstrati
 
 ## Usage
 
-- `git clone git@github.com:ArthurHtbk/P1-Rick-and-Morty.git`: install the project locally on your machine.
-- `npm install`: install dependencies.
+- `git clone git@github.com:ArthurHtbk/P1-Rick-and-Morty.git`: installs the project locally on your machine.
+- `npm install`: installs dependencies.
 - `npm run validate`: runs HTML linter (fired automatically on every commit).
 
 ## JavaScript Files Overview
