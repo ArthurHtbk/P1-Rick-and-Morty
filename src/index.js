@@ -19,6 +19,7 @@ const charsParagraphs = document.querySelectorAll(
 const harmonParagraphs = document.querySelectorAll(
   ".harmon-section > .paragraphs"
 );
+const link = document.querySelectorAll(".link");
 
 // Handle language switch
 displayParagraphs(languageContent.fr.characters, charsParagraphs);
@@ -40,6 +41,12 @@ toggleButton.addEventListener("click", () => {
 // Hamburger menu
 hamburger.addEventListener("click", () => {
   hamburgerHandler(navLinks, "open");
+});
+
+link.forEach((element) => {
+  element.addEventListener("click", () => {
+    navLinks.classList.remove("open");
+  });
 });
 
 /**
