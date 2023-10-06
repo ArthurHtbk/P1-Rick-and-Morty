@@ -40,8 +40,8 @@ This module contains utility functions used throughout the project. Functions li
 
 ## About the Project
 
-This project is an example created by JavaScript instructors, Arthur and Cyrille, at the Wild Code School. It's intended to showcase what students can achieve using the HTML/CSS/vanilla JavaScript stack within the two-and-a-half-week project timeframe. Additionally, Husky has been set up to run a pre-commit hook that checks HTML code quality using the w3c-html-validator, ensuring code quality and standards adherence.
+This project is an example created by the Toulouse JavaScript instructors team, Arthur and Cyrille, at the Wild Code School. It's intended to showcase what students can achieve using the HTML/CSS/vanilla JavaScript stack within the two-and-a-half-week project timeframe. Additionally, Husky has been set up to run a pre-commit hook that checks HTML code quality using the w3c-html-validator, ensuring code quality and standards adherence.
 
-Feel free to explore and use this project as a reference for your own projects or as a learning resource. If you have any questions or need further assistance, please don't hesitate to reach out to the project authors or instructors.
+Feel free to explore and use this project as a reference for your own projects or as a learning resource. If you have any questions or need further assistance, please don't hesitate to reach out to the project authors.
 
-Enjoy exploring the Wild Code School JavaScript Project Example!
+Enjoy exploring our Rick & Morty homage project!
